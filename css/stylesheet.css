@@ -225,7 +225,7 @@ h6 {
     height: 100%;
     left: 0;
     top: 0;
-    opacity: 0.95;
+    opacity: 0.9;
 }
 
 .what-i-do {
@@ -248,6 +248,62 @@ h6 {
     font-family: 'Philosopher', sans-serif;
     text-transform: uppercase
 }
+
+.need-help {
+    text-align: center;
+    padding: 4%;
+    font-family: 'Philosopher', sans-serif;
+}
+
+.need-help p {
+    color: orange;
+}
+
+.contact-bg {
+    position: absolute;
+    width: 100%;
+    background: #e83b35;
+    height: 100%;
+    left: 0;
+    top: 0;
+    opacity: 0.9;
+}
+
+.contact {
+    position: relative;
+    background-image: url('../images/details.jpg');
+    width: 100%;
+    height: fit-content;
+    padding: 5%;
+    margin: 0 auto;
+    color: white;
+    z-index: 99;
+}
+
+.title h4,
+.title p {
+    text-align: center;
+    font-family: 'Philosopher', sans-serif;
+    text-transform: capitalize;
+}
+
+.info {
+    margin: 0 auto !important;
+    text-align: center;
+}
+
+.info h5 {
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.footer {
+    font-family: 'Philosopher', sans-serif;
+    color: white;
+    text-align: center;
+}
+
+.footer i {}
 
 
 /* width */
