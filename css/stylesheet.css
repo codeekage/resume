@@ -192,7 +192,7 @@ h6 {
 .about-me {
     width: 100%;
     position: relative;
-    height: 412px;
+    height: fit-content;
     padding: 3%;
 }
 
@@ -202,10 +202,12 @@ h6 {
 
 .about-me h4 {
     color: orange;
+    font-family: 'Philosopher', sans-serif;
 }
 
 .about-me h5 {
     font-weight: 100;
+    font-family: 'Philosopher', sans-serif;
 }
 
 .about-me-work .far {
@@ -214,6 +216,37 @@ h6 {
 
 .about-me-work {
     font-weight: 200;
+}
+
+.what-i-do-bg {
+    position: absolute;
+    width: 100%;
+    background: #e83b35;
+    height: 100%;
+    left: 0;
+    top: 0;
+    opacity: 0.95;
+}
+
+.what-i-do {
+    position: relative;
+    background-image: url('../images/details.jpg');
+    width: 100%;
+    height: fit-content;
+    padding: 5%;
+    margin: 0 auto;
+    color: white;
+    z-index: 99;
+}
+
+.what-i-do h4 {
+    text-align: center;
+    font-family: 'Philosopher', sans-serif;
+}
+
+.what-i-do h5 {
+    font-family: 'Philosopher', sans-serif;
+    text-transform: uppercase
 }
 
 
