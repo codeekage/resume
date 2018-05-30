@@ -16,31 +16,32 @@
 <body>
 
     <div class="main-body">
-        <nav class="navbar navbar-expand-lg navbar-light bg-pink justify">
+        <nav class="navbar navbar-expand-lg navbar-light bg-pink fixed-top">
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                    </button>
+                <span class="navbar-toggler-icon"></span>
+            </button>
             <div class="justify-content-center collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav nav-bar">
                     <li class="nav-item active">
                         <a class="nav-link txt-white" href="#">
                             <i class="fa fa-home"></i>
-                            <span class="sr-only">(current)</span></a>
+                            <span class="sr-only">(current)</span>
+                        </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link txt-white" href="#">portfolio</a>
+                        <a class="nav-link txt-white" href="#Portfolio">portfolio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">reviews</a>
+                        <a class="nav-link" href="#Reviews">reviews</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">about</a>
+                        <a class="nav-link" href="#about">about</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">services</a>
+                        <a class="nav-link" href="#services">services</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">contact</a>
+                        <a class="nav-link" href="#contact">contact</a>
                     </li>
                 </ul>
             </div>
@@ -69,86 +70,169 @@
             <div class="text-center">
                 <ul class="social">
                     <li class="social-item">
-                        <a href="http://" class="txt-white"><i class="fab fa-facebook-f"></i></a>
+                        <a href="http://" class="txt-white">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
                     </li>
                     <li class="social-item">
-                        <a href="http://" class="txt-white"><i class="fab fa-twitter"></i></a>
+                        <a href="http://" class="txt-white">
+                            <i class="fab fa-twitter"></i>
+                        </a>
                     </li>
                     <li class="social-item">
-                        <a href="http://" class="txt-white"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="http://" class="txt-white">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
                     </li>
                     <li class="social-item">
-                        <a href="http://" class="txt-white"><i class="fab fa-pinterest-p"></i></a>
+                        <a href="http://" class="txt-white">
+                            <i class="fab fa-pinterest-p"></i>
+                        </a>
                     </li>
                     <li class="social-item">
-                        <a href="http://" class="txt-white"><i class="fab fa-instagram"></i></a>
+                        <a href="http://" class="txt-white">
+                            <i class="fab fa-instagram"></i>
+                        </a>
                     </li>
                 </ul>
             </div>
         </div>
 
-        <div class="portfolio-card">
+        <div class="portfolio-card" id="Portfolio">
             <div class="container">
+                <div class="row">
+                    <div>lsl</div>
+                </div>
                 <div class="row">
                     <div class="col-sm-4 portfolio-item">
                         <img src="images/bg-1.png" alt="..." class="portfolio-img">
-
                     </div>
                     <div class="col-sm-4 portfolio-item">
                         <img src="images/bg-2.png" alt="..." class="portfolio-img">
-
                     </div>
                     <div class="col-sm-4 portfolio-item">
                         <img src="images/bg-3.png" alt="..." class="portfolio-img">
-
                     </div>
-
                 </div>
                 <div class="row">
                     <div class="col-sm-4 portfolio-item">
                         <img src="images/bg-9.png" alt="..." class="portfolio-img">
-
                     </div>
                     <div class="col-sm-4 portfolio-item">
                         <img src="images/bg-4.png" alt="..." class="portfolio-img">
-
                     </div>
                     <div class="col-sm-4 portfolio-item">
                         <img src="images/bg-5.png" alt="..." class="portfolio-img">
-
                     </div>
-
                 </div>
                 <div class="row">
                     <div class="col-sm-4 portfolio-item">
                         <img src="images/bg-6.png" alt="..." class="portfolio-img">
-
                     </div>
                     <div class="col-sm-4 portfolio-item">
                         <img src="images/bg-7.png" alt="..." class="portfolio-img">
-
                     </div>
                     <div class="col-sm-4 portfolio-item">
                         <img src="images/bg-8.png" alt="..." class="portfolio-img">
-
                     </div>
+                </div>
+            </div>
+        </div>
+        <div class="load">
+            <a href="http://#" class="btn btn-primary">Load More</a>
+        </div>
 
+        <div class="review-bg"></div>
+        <div class="reviews bg-pink" id="Reviews">
+            <div class="container">
+                <div class="row review-text">
+                    <p class="txt-white justify-content-center">Buttons will appear pressed (with a darker background, darker border, and inset shadow) when active. There’s no need to add a class to as they use a pseudo-class. However, you can still force the same active appearance with .active
+                        (and include the aria-pressed="true" attribute) should you need to replicate the state programmatically.
+                    </p>
+                </div>
+                <div class="row d-none">
+                    <p class="txt-white justify-content-center">Buttons will appear pressed (with a darker background, darker border, and inset shadow) when active. There’s no need to add a class to as they use a pseudo-class. However, you can still force the same active appearance with .active
+                        (and include the aria-pressed="true" attribute) should you need to replicate the state programmatically.
+                    </p>
+                </div>
+                <div class="row d-none">
+                    <p class="txt-white justify-content-center">Buttons will appear pressed (with a darker background, darker border, and inset shadow) when active. There’s no need to add a class to as they use a pseudo-class. However, you can still force the same active appearance with .active
+                        (and include the aria-pressed="true" attribute) should you need to replicate the state programmatically.
+                    </p>
+                </div>
+                <div class="row">
+                    <ul class="col-md-4 review-img justify-content-center">
+                        <li class="review-img-item">
+                            <img src="images/avatar.jpg" alt="" class="rounded medium">
+                        </li>
+                        <li class="review-img-item">
+                            <img src="images/eva.jpg" alt="" class="rounded medium">
+                        </li>
+                        <li class="review-img-item">
+                            <img src="images/ryan.jpg" alt="" class="rounded medium">
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="about-me">
+            <div class="container" style="width: 70%">
+                <div class="row about-me-item">
+                    <div class="col-md-6  about-me-item">
+                        <h4>
+                            <i class="far fa-user"></i> About Me</h4>
+                        <br>
+                        <p>
+                            Navbar togglers are left-aligned by default, but should they follow a sibling element like a .navbar-brand, they’ll automatically be aligned to the far right. Reversing your markup will reverse the placement of the toggler. Below are examples of different
+                            toggle styles.
+                        </p>
+                        <br>
+                        <p>
+                            Navbar togglers are left-aligned by default, but should they follow a sibling element like a .navbar-brand, they’ll automatically be aligned to the far right. Reversing your markup will reverse the placement of the toggler. Below are examples of different
+                            toggle styles.
+                        </p>
+                    </div>
+                    <div class="col-md-3  about-me-item">
+                        <h4>
+                            <i class="far fa-hand-peace"></i> Work History</h4>
+                        <br>
+                        <h5>Product Manager</h5>
+                        <p class="about-me-work mb-0">
+                            <i class="far fa-building"></i> Dropbox</p>
+                        <p class="about-me-work">
+                            <i class="far fa-clock"></i> Facebook
+                        </p>
+
+                        <h5>Senior UX Designer</h5>
+                        <p class="about-me-work mb-0">
+                            <i class="far fa-building"></i> Dropbox</p>
+                        <p class="about-me-work">
+                            <i class="far fa-clock"></i> Facebook
+                        </p>
+
+                        <h5>Senior UX Designer</h5>
+                        <p class="about-me-work mb-0">
+                            <i class="far fa-building"></i> Dropbox</p>
+                        <p>
+                            <i class="far fa-clock"></i> Facebook
+                        </p>
+                    </div>
+                    <div class="col-md-3  about-me-item">
+                        <h4>
+                            <i class="far fa-thumbs-down"></i> Education</h4>
+                        <br>
+                        <p>Self Taught!</p>
+                    </div>
                 </div>
             </div>
         </div>
 
     </div>
-
-
-
-
-
-
-
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
-
 </body>
 
 </html>

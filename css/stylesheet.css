@@ -3,7 +3,7 @@
 }
 
 .bg-pink {
-    background-color: #e83b35 !important;
+    background-color: #e83b35ed !important;
 }
 
 .nav-bar li {
@@ -28,11 +28,15 @@
 .rounded.small {
     width: 50px;
     height: 50px;
+    border-radius: 50px !important;
+    border: 3px solid white;
 }
 
 .rounded.medium {
     width: 70px;
     height: 70px;
+    border-radius: 70px !important;
+    border: 3px solid white;
 }
 
 .rounded.large {
@@ -124,4 +128,120 @@ h6 {
 .portfolio-item {
     padding: 0 !important;
     height: 100%;
+}
+
+.load {
+    position: relative;
+    margin: -58px 0px 35px 0px;
+    text-align: center;
+}
+
+.bg-organe {
+    background-color: orange !important;
+}
+
+.btn-primary {
+    background: orange !important;
+    border-color: orange !important;
+}
+
+.review-bg {
+    position: absolute;
+    width: 100%;
+    height: 350px;
+    background-image: url('../images/details.jpg')
+}
+
+.reviews {
+    position: relative;
+    width: 100%;
+    height: 350px;
+    opacity: 0.95;
+    padding: 6%;
+    text-align: center;
+}
+
+.slider {
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+    position: relative;
+    background: rebeccapurple;
+    width: 70%;
+    padding: 22px;
+}
+
+.slider-item {
+    position: relative;
+}
+
+.review-img {
+    display: flex;
+    flex: 1;
+    margin: 0 auto;
+}
+
+.review-img li {
+    margin: 5px;
+}
+
+.review-img-item {
+    list-style: none;
+}
+
+.about-me {
+    width: 100%;
+    position: relative;
+    height: 412px;
+    padding: 3%;
+}
+
+.about-me p {
+    text-align: justify;
+}
+
+.about-me h4 {
+    color: orange;
+}
+
+.about-me h5 {
+    font-weight: 100;
+}
+
+.about-me-work .far {
+    font-size: 0.9rem !important;
+}
+
+.about-me-work {
+    font-weight: 200;
+}
+
+
+/* width */
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+
+/* Track */
+
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+}
+
+
+/* Handle */
+
+::-webkit-scrollbar-thumb {
+    background: #e83b35;
+    border-radius: 5px;
+}
+
+
+/* Handle on hover */
+
+::-webkit-scrollbar-thumb:hover {
+    background: orange;
 }
