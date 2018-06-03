@@ -1,7 +1,7 @@
 import React from 'react'
 import Contact from './Contact'
 
-export default () => {
+export default function Footer(){
   return (
     <div>
       <Contact/>

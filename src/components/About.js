@@ -1,6 +1,7 @@
 import React from 'react'
 
-export default () => {
+
+const About =  () => {
     const style = {
         width : '70%'
     }
@@ -59,3 +60,5 @@ export default () => {
         </div>
     )
 }
+
+export default About;

@@ -1,9 +1,9 @@
 import React from 'react'
 
-export default () => {
+export default function Portfolio () {
     const style = {
         'color': 'orange',
-         "text-transform": 'uppercase',
+         "textTransform": 'uppercase',
     }
     return (
         <div>
@@ -52,7 +52,7 @@ export default () => {
                 </div>
             </div>
             <div className="load">
-                <a href="http://#" class="btn btn-primary">Load More</a>
+                <a href="http://" className="btn btn-primary">Load More</a>
             </div>
         </div>
     )

@@ -1,52 +1,52 @@
 import React from 'react'
 
-export default () => {
+export default function Profile() {
     return (
         <div>
             <div className="fancy-bg"></div>
             <div className="details bg-pink">
                 <div className="text-center">
-                    <img src="images/aj_1.png" class="rounded large" alt="Agiri Abraham Jr" />
+                    <img src="images/aj_1.png" className="rounded large" alt="Agiri Abraham Jr" />
                 </div>
-                <div class="text-center">
-                    <h3 class="txt-white">Agiri Abraham Jr.</h3>
-                </div>
-
-                <div class="text-center">
-                    <h6 class="txt-white">Software Developer</h6>
+                <div className="text-center">
+                    <h3 className="txt-white">Agiri Abraham Jr.</h3>
                 </div>
 
-                <div class="text-center">
-                    <div class="underline">
+                <div className="text-center">
+                    <h6 className="txt-white">Software Developer</h6>
+                </div>
+
+                <div className="text-center">
+                    <div className="underline">
                         <span></span>
                     </div>
                 </div>
 
-                <div class="text-center">
-                    <ul class="social">
-                        <li class="social-item">
-                            <a href="http://" class="txt-white">
-                                <i class="fab fa-facebook-f"></i>
+                <div className="text-center">
+                    <ul className="social">
+                        <li className="social-item">
+                            <a href="http://" className="txt-white">
+                                <i className="fab fa-facebook-f"></i>
                             </a>
                         </li>
-                        <li class="social-item">
-                            <a href="http://" class="txt-white">
-                                <i class="fab fa-twitter"></i>
+                        <li className="social-item">
+                            <a href="http://" className="txt-white">
+                                <i className="fab fa-twitter"></i>
                             </a>
                         </li>
-                        <li class="social-item">
-                            <a href="http://" class="txt-white">
-                                <i class="fab fa-linkedin-in"></i>
+                        <li className="social-item">
+                            <a href="http://" className="txt-white">
+                                <i className="fab fa-linkedin-in"></i>
                             </a>
                         </li>
-                        <li class="social-item">
-                            <a href="http://" class="txt-white">
-                                <i class="fab fa-pinterest-p"></i>
+                        <li className="social-item">
+                            <a href="http://" className="txt-white">
+                                <i className="fab fa-pinterest-p"></i>
                             </a>
                         </li>
-                        <li class="social-item">
-                            <a href="http://" class="txt-white">
-                                <i class="fab fa-instagram"></i>
+                        <li className="social-item">
+                            <a href="http://" className="txt-white">
+                                <i className="fab fa-instagram"></i>
                             </a>
                         </li>
                     </ul>

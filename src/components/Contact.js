@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default () => {
+const Contact =  () => {
     return (
         <div>
             <div className="contact" id="Contact">
@@ -22,7 +22,7 @@ export default () => {
                             <i className="fab fa-google"></i> agiriabrahamjunior@gmail.com</p>
                         <p className="mb-0">
                             <i className="fab fa-github"></i>
-                            <a href="https://github.com/codeekage/ask-me" className="txt-white" target="_blank">github.com/codeekage/ask-me</a>
+                            <a href="https://github.com/codeekage/ask-me" className="txt-white">github.com/codeekage/ask-me</a>
                         </p>
 
                     </div>
@@ -82,3 +82,5 @@ export default () => {
         </div>
     )
 }
+
+export default Contact;
