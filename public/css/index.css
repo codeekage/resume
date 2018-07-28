@@ -52,7 +52,7 @@
     height: 410px;
     position: absolute;
     padding: 65px;
-    background-image: url('/images/details.jpg');
+    background-image: url('../images/details.jpg');
 }
 
 .details {
@@ -149,7 +149,7 @@ h6 {
     position: absolute;
     width: 100%;
     height: 350px;
-    background-image: url('/images/details.jpg')
+    background-image: url('../images/details.jpg')
 }
 
 .reviews {
@@ -230,7 +230,7 @@ h6 {
 
 .what-i-do {
     position: relative;
-    background-image: url('/images/details.jpg');
+    background-image: url('../images/details.jpg');
     width: 100%;
     height: fit-content;
     padding: 5%;
@@ -247,6 +247,10 @@ h6 {
 .what-i-do h5 {
     font-family: 'Philosopher', sans-serif;
     text-transform: uppercase
+}
+
+.what-i-do p {
+    text-align: justify;
 }
 
 .need-help {
@@ -271,7 +275,7 @@ h6 {
 
 .contact {
     position: relative;
-    background-image: url('/images/details.jpg');
+    background-image: url('../images/details.jpg');
     width: 100%;
     height: fit-content;
     padding: 5%;

@@ -27,31 +27,29 @@ const About =  () => {
                             <h4>
                                 <i className="far fa-hand-peace"></i> Work History</h4>
                             <br />
-                            <h5>Product Manager</h5>
+                            <h5>Junior Developer</h5>
                             <p className="about-me-work mb-0">
-                                <i className="far fa-building"></i> Dropbox</p>
+                                <i className="far fa-building"></i> Yelocode Systems</p>
                             <p className="about-me-work">
-                                <i className="far fa-clock"></i> Facebook
+                                <i className="far fa-clock"></i> June 2017 - August 2017
                         </p>
-                            <h5>Senior UX Designer</h5>
+                            <h5>Technical Writer (Internship)</h5>
                             <p className="about-me-work mb-0">
-                                <i className="far fa-building"></i> Dropbox</p>
+                                <i className="far fa-building"></i> Dshaw LLC</p>
                             <p className="about-me-work">
-                                <i className="far fa-clock"></i> Facebook
-                        </p>
-
-                            <h5>Senior UX Designer</h5>
-                            <p className="about-me-work mb-0">
-                                <i className="far fa-building"></i> Dropbox</p>
-                            <p>
-                                <i className="far fa-clock"></i> Facebook
+                                <i className="far fa-clock"></i> June 2018 - To Date
                         </p>
                         </div>
                         <div className="col-md-3  about-me-item">
                             <h4>
                                 <i className="far fa-thumbs-down"></i> Education</h4>
                             <br />
-                            <p>Self Taught!</p>
+{/*                             <h5>National Institue of Information Technology</h5>
+ */}                            <p className="about-me-work mb-0">
+                                <i className="far fa-building"></i> National Institue of Information Technology</p>
+                            <p className="about-me-work">
+                                <i className="far fa-clock"></i> June 2015 - August 2018 
+                        </p>
                         </div>
                     </div>
                 </div>

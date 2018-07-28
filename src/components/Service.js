@@ -20,7 +20,9 @@ const Service = () => {
                             </h3>
                             <h5>Mobile Dev</h5>
                             <p>
-                                Navbar togglers are left-aligned by default, but should they follow a sibling element like a .navbar-brand, they’ll automatically be aligned to the far right.
+                             <li>Android</li>
+                             <li>React Native</li>
+                             
                         </p>
                         </div>
                         <div className="col-md-4">
@@ -29,8 +31,13 @@ const Service = () => {
                             </h3>
                             <h5>Web Dev</h5>
                             <p>
-                                Navbar togglers are left-aligned by default, but should they follow a sibling element like a .navbar-brand, they’ll automatically be aligned to the far right.
-                        </p>
+                                <li>Node.js</li>
+                                <li>C# ASP.Net</li>
+                                <li>JAVA (JSP/JSF/Hibernate/Spring)</li>
+                                <li>PHP</li>
+                                <li>JavaScript</li>
+
+                            </p>
                         </div>
                         <div className="col-md-4">
                             <h3>
@@ -38,8 +45,10 @@ const Service = () => {
                             </h3>
                             <h5>UI/UX Design</h5>
                             <p>
-                                Navbar togglers are left-aligned by default, but should they follow a sibling element like a .navbar-brand, they’ll automatically be aligned to the far right.
-                        </p>
+                                <li>Figma</li>
+                              
+
+                            </p>
                         </div>
                     </div>
                     <div className="row">
@@ -48,10 +57,13 @@ const Service = () => {
                                 <i className="fas fa-microphone"></i>
 
                             </h3>
-                            <h5>Public Speaking</h5>
+                            <h5>Public Speaking (FAV. TOPICS)</h5>
                             <p>
-                                Navbar togglers are left-aligned by default, but should they follow a sibling element like a .navbar-brand, they’ll automatically be aligned to the far right.
-                        </p>
+                                <li>Node.js</li>
+                                <li>JavaScript</li>
+                                <li>Open Source</li>
+
+                            </p>
                         </div>
                         <div className="col-md-4">
                             <h3>
@@ -59,7 +71,7 @@ const Service = () => {
                             </h3>
                             <h5>Node.js Podcast</h5>
                             <p>
-                                Navbar togglers are left-aligned by default, but should they follow a sibling element like a .navbar-brand, they’ll automatically be aligned to the far right.
+                                Coming Soon
                         </p>
                         </div>
                         <div className="col-md-4">
@@ -68,7 +80,12 @@ const Service = () => {
                             </h3>
                             <h5>Techincal Writing</h5>
                             <p>
-                                Navbar togglers are left-aligned by default, but should they follow a sibling element like a .navbar-brand, they’ll automatically be aligned to the far right.
+                               
+                                    <li>Documentation</li>
+                                    <li>Blog Post</li>
+                                    <li>Tutorials</li>
+
+                               
                         </p>
                         </div>
                     </div>

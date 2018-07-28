@@ -25,28 +25,23 @@ export default function Profile() {
                 <div className="text-center">
                     <ul className="social">
                         <li className="social-item">
-                            <a href="http://" className="txt-white">
-                                <i className="fab fa-facebook-f"></i>
-                            </a>
-                        </li>
-                        <li className="social-item">
-                            <a href="http://" className="txt-white">
+                            <a href="http://twitter.com/codeekage" target="_blank" className="txt-white">
                                 <i className="fab fa-twitter"></i>
                             </a>
                         </li>
                         <li className="social-item">
-                            <a href="http://" className="txt-white">
+                            <a href="https://linkedin.com/in/agiriabrahamjunior/" target="_blank" className="txt-white">
                                 <i className="fab fa-linkedin-in"></i>
                             </a>
                         </li>
                         <li className="social-item">
-                            <a href="http://" className="txt-white">
-                                <i className="fab fa-pinterest-p"></i>
+                            <a href="http://medium.com/codeekage" target="_blank" className="txt-white">
+                                <i className="fab fa-medium"></i>
                             </a>
                         </li>
                         <li className="social-item">
-                            <a href="http://" className="txt-white">
-                                <i className="fab fa-instagram"></i>
+                            <a href="http://github.com/codeekage" className="txt-white">
+                                <i className="fab fa-github"></i>
                             </a>
                         </li>
                     </ul>
