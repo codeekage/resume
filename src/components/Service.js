@@ -22,6 +22,7 @@ const Service = () => {
                             <p>
                              <li>Android</li>
                              <li>React Native</li>
+                             <li>Progressive Web Apps</li>
                              
                         </p>
                         </div>
@@ -31,12 +32,10 @@ const Service = () => {
                             </h3>
                             <h5>Web Dev</h5>
                             <p>
-                                <li>Node.js</li>
-                                <li>C# ASP.Net</li>
-                                <li>JAVA (JSP/JSF/Hibernate/Spring)</li>
-                                <li>PHP</li>
-                                <li>JavaScript</li>
-
+                                <li>JavaScript (Node.js, MERN)</li>
+                                <li>C# (ASP.NET, MVC)</li>
+                                <li>JAVA (JSP, JSF)</li>
+                                <li>PHP (PDO, OOP)</li>
                             </p>
                         </div>
                         <div className="col-md-4">
@@ -57,13 +56,22 @@ const Service = () => {
                                 <i className="fas fa-microphone"></i>
 
                             </h3>
-                            <h5>Public Speaking (FAV. TOPICS)</h5>
-                            <p>
+                            <h5 className="m-0">Public Speaking</h5>
+                                <small>
+                                    <em>
+                                        <a href = "https://foundation.nodejs.org/news/speakers"
+                                        target = "_blank"
+                                        rel = "noopener noreferrer" >
+                                            (Node.js Speaker Bureau)
+                                        </a>
+                                    </em>
+                                </small>
+                            <ul>
                                 <li>Node.js</li>
                                 <li>JavaScript</li>
                                 <li>Open Source</li>
-
-                            </p>
+                            </ul>
+                           
                         </div>
                         <div className="col-md-4">
                             <h3>
@@ -78,15 +86,41 @@ const Service = () => {
                             <h3>
                                 <i className="fas fa-pencil-alt"></i>
                             </h3>
-                            <h5>Techincal Writing</h5>
-                            <p>
-                               
-                                    <li>Documentation</li>
-                                    <li>Blog Post</li>
-                                    <li>Tutorials</li>
+                            <h5 className="">Techincal Writing</h5>
+                            <ul className="list-item">
+                                <li>
+                                    Documentation 
+                                    <small>
+                                        <em>
+                                            <a className = ""
+                                            href = "https://github.com/nodejsafrica"
+                                            target = "_blank"
+                                            rel = "noopener noreferrer" > (Node.js Africa) 
+                                            </a>
+                                        </em>
+                                    </small>
+                                </li>
+                                <li>Blog Post  <span> </span>
+                                <small>
+                                    <em>
+                                        <a className = ""
+                                        href = "https://github.com/nodejsafrica"
+                                        target = "_blank"
+                                        rel = "noopener noreferrer" >
+                                        (Node.js Collection)</a>
+                                    </em>
+                                </small>
 
-                               
-                        </p>
+                                </li>
+                                <li>
+                                    Tutorials <span> </span>
+                                    <small>
+                                        <em>
+                                            <a className="" href="https://github.com/nodejsafrica" target="_blank" rel="noopener noreferrer">(Node.js Africa)</a>
+                                        </em>
+                                    </small>
+                                </li>
+                            </ul>
                         </div>
                     </div>
                 </div>

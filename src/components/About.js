@@ -46,9 +46,9 @@ const About =  () => {
                             <br />
 {/*                             <h5>National Institue of Information Technology</h5>
  */}                            <p className="about-me-work mb-0">
-                                <i className="far fa-building"></i> National Institue of Information Technology</p>
+                                <i className="far fa-building"></i> National Institue of Information Technology (Software Engineering)</p>
                             <p className="about-me-work">
-                                <i className="far fa-clock"></i> June 2015 - August 2018 
+                                <i className="far fa-clock"></i> June 2015 - August 2017 
                         </p>
                         </div>
                     </div>

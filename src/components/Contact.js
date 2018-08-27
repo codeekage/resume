@@ -1,6 +1,8 @@
-import React from 'react'
+import React from 'react';
+import { BrowserRouter, Link } from "react-router-dom";
+import { Route } from 'react-router'
 
-const Contact =  () => {
+const Contact = () => {
     return (
         <div>
             <div className="contact" id="Contact">
@@ -47,34 +49,29 @@ const Contact =  () => {
                 </div>
                 <div className="row">
                     <div className="col-md-12">
-                        <div className="text-center">
-                            <ul className="social">
-                                <li className="social-item">
-                                    <a href="http://" className="txt-white">
-                                        <i className="fab fa-facebook-f"></i>
-                                    </a>
-                                </li>
-                                <li className="social-item">
-                                    <a href="http://" className="txt-white">
-                                        <i className="fab fa-twitter"></i>
-                                    </a>
-                                </li>
-                                <li className="social-item">
-                                    <a href="http://" className="txt-white">
-                                        <i className="fab fa-linkedin-in"></i>
-                                    </a>
-                                </li>
-                                <li className="social-item">
-                                    <a href="http://" className="txt-white">
-                                        <i className="fab fa-pinterest-p"></i>
-                                    </a>
-                                </li>
-                                <li className="social-item">
-                                    <a href="http://" className="txt-white">
-                                        <i className="fab fa-instagram"></i>
-                                    </a>
-                                </li>
-                            </ul>
+            <div className="text-center">
+                            <BrowserRouter className="text-center">
+                                <ul className="social">
+                                    <li className="social-item">
+                                        <Route path='/twitter' component={() => window.location = 'https://twitter.com/codeekage'} />
+                                        <Link to="/twitter" target="_blank" className="txt-white">
+                                            <i className="fab fa-twitter"></i>
+                                        </Link>
+                                    </li>
+                                    <li className="social-item">
+                                        <Route path='/linkedin' component={() => window.location = 'https://linkedin.com/in/agiriabrahamjunior/'} />
+                                        <Link to="/linkedin" target="_blank" className="txt-white">
+                                            <i className="fab fa-linkedin-in"></i>
+                                        </Link>
+                                    </li>
+                                    <li className="social-item">
+                                        <Link to="/github" rel="noopener noreferrer" className="txt-white">
+                                        <Route path='/github' component={() => window.location = 'https://github.com/codeekage'} />
+                                            <i className="fab fa-github"></i>
+                                        </Link>
+                                    </li>
+                                </ul>
+                            </BrowserRouter>
                         </div>
                     </div>
                 </div>

@@ -130,6 +130,10 @@ h6 {
     height: 100%;
 }
 
+.portfolio-item.iframe {
+    width: 100%;
+}
+
 .load {
     position: relative;
     margin: -58px 0px 35px 0px;

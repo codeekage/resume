@@ -1,39 +1,50 @@
-import React from 'react'
+import React, { Component } from 'react'
+import { Nav, NavUL, Collapse, NavButton, NavItem} from './bs-modules/NavBar'
+export default class Header extends Component {
 
-export default function Header() {
-  return (
-    <div>
-          <nav className="navbar navbar-expand-lg navbar-light bg-pink fixed-top">
-              <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                  <span className="navbar-toggler-icon"></span>
-              </button>
-              <div className="justify-content-center collapse navbar-collapse" id="navbarNav">
-                  <ul className="navbar-nav nav-bar">
-                      <li className="nav-item active">
-                          <a className="nav-link txt-white" href="">
-                              <i className="fa fa-home"></i>
-                              <span className="sr-only">(current)</span>
-                          </a>
-                      </li>
-                      <li className="nav-item">
-                          <a className="nav-link txt-white" href="#Portfolio">portfolio</a>
-                      </li>
-                      <li className="nav-item">
-                          <a className="nav-link" href="#Reviews">reviews</a>
-                      </li>
-                      <li className="nav-item">
-                          <a className="nav-link" href="#About">about</a>
-                      </li>
-                      <li className="nav-item">
-                          <a className="nav-link" href="#Services">services</a>
-                      </li>
-                      <li className="nav-item">
-                          <a className="nav-link" href="#Contact">contact</a>
-                      </li>
-                  </ul>
-              </div>
-          </nav>
+    constructor(props) {
+        super(props);
 
-    </div>
-  )
+        console.log(props);
+
+        this.state = {
+            collapse: true,
+        }
+
+        this.handleCollapse = this.handleCollapse.bind(this);
+    
+    }
+
+  
+
+    handleCollapse(e) {
+        const collapse = this.state.collapse;
+        if (collapse) {
+            this.setState({ collapse: false })
+            console.log(collapse);
+
+        } else {
+            this.setState({ collapse: true })
+            console.log(collapse);
+        }
+    }
+
+
+    render() {
+        const showing = this.state.collapse
+        return (
+            <Nav>
+               <NavButton onClick={this.handleCollapse}/>
+                <Collapse showing={showing}>
+                    <NavUL>
+                        <NavItem link="#Portfolio" title="Portfolio"/>
+                        <NavItem link="#Reviews" title="Reviews"/>
+                        <NavItem link="#About" title="About"/>
+                        <NavItem link="#Services" title="Services"/>
+                        <NavItem link="#Contact" title="Contact"/>                       
+                    </NavUL> 
+                </Collapse>
+            </Nav>
+        )
+    }
 }

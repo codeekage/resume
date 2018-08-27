@@ -6,9 +6,8 @@ export default function Review () {
             <div className="review-bg"></div>
             <div className="reviews bg-pink" id="Reviews">
                 <div className="container">
-                    <div className="row review-text">
-                        <p className="txt-white justify-content-center">Buttons will appear pressed (with a darker background, darker border, and inset shadow) when active. There’s no need to add a className to as they use a pseudo-className. However, you can still force the same active appearance with .active
-                            (and include the aria-pressed="true" attribute) should you need to replicate the state programmatically.
+                    <div className="row review-text justify-content-center">
+                        <p className="txt-white ">God Father of Node.js and Coach/Mentor.
                     </p>
                     </div>
                   {/*   <div className="row d-none">
@@ -28,6 +27,7 @@ export default function Review () {
                             </li> */}
                             <li className="review-img-item">
                                 <img src="https://avatars3.githubusercontent.com/u/4322?s=460&v=4" alt="" className="rounded medium" />
+                                <p className="txt-white">Dan Shaw (@dshaw)</p>
                             </li>
                             {/* <li className="review-img-item">
                                 <img src="images/ryan.jpg" alt="" className="rounded medium" />
