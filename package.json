@@ -19,5 +19,12 @@
         "predeploy": "npm run build",
         "deploy": "gh-pages -d build",
         "eject": "react-scripts eject"
+    },
+    "now": {
+        "alias": "codeekage",
+        "name": "codeekage",
+        "env": {
+            "PORT": "8000"
+        }
     }
 }
