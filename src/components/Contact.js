@@ -50,28 +50,29 @@ const Contact = () => {
                 <div className="row">
                     <div className="col-md-12">
             <div className="text-center">
-                            <BrowserRouter className="text-center">
-                                <ul className="social">
-                                    <li className="social-item">
-                                        <Route path='/twitter' component={() => window.location = 'https://twitter.com/codeekage'} />
-                                        <Link to="/twitter" target="_blank" className="txt-white">
-                                            <i className="fab fa-twitter"></i>
-                                        </Link>
-                                    </li>
-                                    <li className="social-item">
-                                        <Route path='/linkedin' component={() => window.location = 'https://linkedin.com/in/agiriabrahamjunior/'} />
-                                        <Link to="/linkedin" target="_blank" className="txt-white">
-                                            <i className="fab fa-linkedin-in"></i>
-                                        </Link>
-                                    </li>
-                                    <li className="social-item">
-                                        <Link to="/github" rel="noopener noreferrer" className="txt-white">
-                                        <Route path='/github' component={() => window.location = 'https://github.com/codeekage'} />
-                                            <i className="fab fa-github"></i>
-                                        </Link>
-                                    </li>
-                                </ul>
-                            </BrowserRouter>
+                           <ul className="social">
+                        <li className="social-item">
+                            <a href = "https://twitter.com/codeekage"
+                            rel = "noopener noreferrer"
+                            target = "_blank"
+                            className = "txt-white" >
+                                <i className="fab fa-twitter"></i>
+                            </a>
+                        </li>
+                        <li className="social-item">
+                            <a href = "https://linkedin.com/in/agiriabrahamjunior"
+                            rel = "noopener noreferrer"
+                            target = "_blank"
+                            className = "txt-white" >
+                                <i className="fab fa-linkedin-in"></i>
+                            </a>
+                        </li>
+                        <li className="social-item">
+                            <a href="https://github.com/codeekage" rel="noopener noreferrer" className="txt-white">
+                                <i className="fab fa-github"></i>
+                            </a>
+                        </li>
+                    </ul>
                         </div>
                     </div>
                 </div>

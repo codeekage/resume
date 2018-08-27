@@ -34,7 +34,7 @@ export default function Profile() {
                             </a>
                         </li>
                         <li className="social-item">
-                            <a href = "https://linkedin/in/agiriabrahamjunior"
+                            <a href = "https://linkedin.com/in/agiriabrahamjunior"
                             rel = "noopener noreferrer"
                             target = "_blank"
                             className = "txt-white" >

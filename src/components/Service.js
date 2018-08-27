@@ -59,7 +59,7 @@ const Service = () => {
                             <h5 className="m-0">Public Speaking</h5>
                                 <small>
                                     <em>
-                                        <a href = "https://foundation.nodejs.org/news/speakers"
+                                        <a href = "https://foundation.nodejs.org/news/speakers-bureau"
                                         target = "_blank"
                                         rel = "noopener noreferrer" >
                                             (Node.js Speaker Bureau)
@@ -93,7 +93,7 @@ const Service = () => {
                                     <small>
                                         <em>
                                             <a className = ""
-                                            href = "https://github.com/nodejsafrica"
+                                            href = "https://github.com/nodejsafrica/admin"
                                             target = "_blank"
                                             rel = "noopener noreferrer" > (Node.js Africa) 
                                             </a>
@@ -116,7 +116,7 @@ const Service = () => {
                                     Tutorials <span> </span>
                                     <small>
                                         <em>
-                                            <a className="" href="https://github.com/nodejsafrica" target="_blank" rel="noopener noreferrer">(Node.js Africa)</a>
+                                            <a className="" href="https://github.com/nodejsafrica/workshoppers" target="_blank" rel="noopener noreferrer">(Node.js Africa)</a>
                                         </em>
                                     </small>
                                 </li>
